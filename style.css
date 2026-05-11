@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #160444, #2d0652, #062566);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art-section{
+    padding: 100px;
+    height: 100vh;
+    width: 1200px;
+}
+.art-section h1{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.card-wrapper{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.card img{
+    width: 100%;
+    height: 180px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.card h2{
+    font-size: 14px;
+    color: white;
+    padding-top: 15px;
+}
+.card p{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    right: 5%;
+    top: 63%;
+}
+.card{
+    width: 220px;
+    position: relative;
+    padding: 15px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.233);
+}
+.card span .ri-heart-3-line {
+    font-size: 18px;
+}
+.card button{
+    padding: 8px 20px;
+    width: 150px;
+    font-size: 20px;
+    margin: 25px 20px 20px 20px;
+    border: 2px solid #a47ed8;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.233);
+    color: white;
+    cursor: pointer;
+}
